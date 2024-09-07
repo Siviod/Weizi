@@ -51,4 +51,8 @@ public class EnemyAI : MonoBehaviour
         // Apply movement to the enemy
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
+    private void LateUpdate()
+    {
+        print("bludgoogo gaga");
+    }
 }
